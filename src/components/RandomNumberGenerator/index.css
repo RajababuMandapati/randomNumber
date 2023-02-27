@@ -1,0 +1,33 @@
+/* Write your CSS here */
+
+.container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  height: 100vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.random-container {
+  background-color: #e4ebf3;
+  height: 400px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: blue;
+}
+.generator {
+  background-color: blue;
+  width: 120px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #e4ebf3;
+  cursor: pointer;
+  outline: none;
+}
